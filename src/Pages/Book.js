@@ -5,7 +5,7 @@ export default class Book extends Component {
   render(){
     return(
       <div style={{paddingTop:"150px"}}>
-      <Container style={{paddingTop:"150px", paddingBottom:"90px"}} className="text-center">
+      <Container style={{paddingTop:"50px", paddingBottom:"90px"}} className="text-center">
       <h1>Books</h1>
       <hr />
       <CardDeck className="mt-4">

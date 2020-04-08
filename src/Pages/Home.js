@@ -23,8 +23,7 @@ export default class Home extends Component {
       <Jumbotron style={first_section}>
   <h1>Hello, world!</h1>
   <p>
-    This is a simple hero unit, a simple jumbotron-style component for calling
-    extra attention to featured content or information.
+    Site about, 2 simple words!
   </p>
   <p>
     <Button variant="primary" href="/history">Learn more</Button>
