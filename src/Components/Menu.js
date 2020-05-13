@@ -15,7 +15,7 @@ export default class Menu extends Component {
     return (
       <div>
         <Navbar collapseOnSelect expand="md" bg="dark" variant="dark" fixed="top">
-          <Navbar.Brand href="/"> >Hello World!  </Navbar.Brand>
+          <Navbar.Brand href="/"> >Hello, World!  </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
@@ -25,7 +25,7 @@ export default class Menu extends Component {
             </Nav>
             <Nav>
               <Nav.Link href="https://github.com/ruz1k">Github</Nav.Link>
-              <Nav.Link eventKey={2} href="http://u75250.test-handyhost.ru/">
+              <Nav.Link eventKey={2} href="http://u78199.test-handyhost.ru/">
                 Web-site
               </Nav.Link>
             </Nav>

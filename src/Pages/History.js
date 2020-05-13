@@ -18,7 +18,8 @@ export default class History extends Component {
       paddingTop:"55px"
     }
     return(
-      <div>
+      <Col xs={12}>
+      <div style={{width:"100%"}}>
         <Tab.Container id="right-tabs" defaultActiveKey="first" className="text-center" style={{fontFamily:"Roboto"}}>
           <Row>
             <Col md={3}>
@@ -205,6 +206,7 @@ export default class History extends Component {
         </Row>
       </Tab.Container>
     </div>
+  </Col>
   )
 }
 }
