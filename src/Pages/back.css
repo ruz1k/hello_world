@@ -1,0 +1,19 @@
+.mainww {
+  padding-top: 250px;
+  padding-bottom: 350px;
+  background:url(../Photo/helllo.jpg);
+  background-size:cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.second {
+  padding-top: 200px;
+  margin: 0 auto;
+  color:white;
+}
+
+@media screen and (max-width:540px){
+  .mainww{background-attachment: fixed;padding-bottom: 0px;padding-top: 140px}
+  .second{padding-top: 50px;background-color: rgba(0,0,0,.7)}
+}
